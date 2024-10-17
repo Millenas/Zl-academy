@@ -1,0 +1,22 @@
+[
+    {
+        "nome": "TV",
+        "preco": 500,
+        "quantidade": 20
+    },
+    {
+        "nome": "Camiseta",
+        "preco": 50,
+        "quantidade": 150
+    },
+    {
+        "nome": "Computador",
+        "preco": 2000,
+        "quantidade": 10
+    },
+    {
+        "nome": "Notebook",
+        "preco": 2500,
+        "quantidade": 30
+    }
+]
