@@ -1,0 +1,19 @@
+
+
+Empréstimo registrado em 2024-10-22 06:55:26.057128
+Código do Livro: 001
+Nome do Cliente: João Silva
+ID do Livro: 001
+ID do Usuário: 123
+Data de Empréstimo: 2024-10-22
+Data de Devolução: 2024-10-29
+----------------------------------------
+
+Empréstimo registrado em 2024-10-22 07:01:35.176919
+Código do Livro: 001
+Nome do Cliente: João Silva
+ID do Livro: 001
+ID do Usuário: 123
+Data de Empréstimo: 2024-10-22
+Data de Devolução: 2024-10-29
+----------------------------------------
