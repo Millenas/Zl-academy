@@ -1,0 +1,8 @@
+nome: João da Silva
+email: joao@example.com
+senha: senha123
+confirmar_senha: senha123
+
+novo_nome: João da Silva Atualizado
+novo_email: joaoatualizado@example.com
+
