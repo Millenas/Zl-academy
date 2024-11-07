@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .form-container {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #84378e;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Formulário de Contato</h1>
+
+    <!-- Formulário de Contato -->
+    <div class="form-container">
+        <form id="formularioContato">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome..." required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Seu email..." required>
+
+            <label for="telefone">Telefone</label>
+            <input type="telefone" id="telefone" name="telefone" placeholder="Seu telefone..." required>
+
+            
+            <button type="submit">Enviar Contato</button>
+        </form>
+    </div>
+
+</body>
+</html>

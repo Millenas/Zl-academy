@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .form-container {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #9545a0;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #84378e;
+        }
+    </style>
+    <script>
+        function redirecionarParaContato(event) {
+            event.preventDefault();  
+
+            const username = document.getElementById("username").value;
+            const password = document.getElementById("password").value;
+
+            if (username === "millenas" && password === "poo@zl") { 
+                window.location.href = "form_contato.html";  
+            } else {
+                alert("Usuário ou senha incorretos!");
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <h1>Formulário de Login</h1>
+
+    <div class="form-container">
+        <form id="formularioLogin" onsubmit="redirecionarParaContato(event)">
+            <label for="username">Nome de Usuário</label>
+            <input type="text" id="username" name="username" placeholder="Seu nome de usuário..." required>
+
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password" placeholder="Sua senha..." required>
+
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+
+</body>
+</html>
